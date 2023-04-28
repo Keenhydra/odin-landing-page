@@ -1,1 +1,17 @@
 /* styles.css */
+
+body {
+    color: aliceblue;
+    background-color: #1f2937;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+.bubble {
+    height: 120px;
+    width: 100px;
+    border: 1px solid red;
+}
