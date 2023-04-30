@@ -59,7 +59,7 @@ a {
 
 .title {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: bolder;
     margin-bottom: 10px;
 }
 
@@ -79,45 +79,98 @@ button {
 }
 
 img {
+    border-radius: 8px;
+}
+
+#piccing {
     height: 400px;
     width: auto;
-    border-radius: 8px;
-    /* Not in use: Photo by Aleksandar Pasaric: https://www.pexels.com/photo/photo-of-buildings-during-nighttime-2603464/ */
     /* In use: Photo by Piccinng from Pexels: https://www.pexels.com/photo/photo-of-skyline-at-night-3075993/*/
-    /* */
-    /* */
-    /* */
 }
 
 
 
 .two {
-    border: 1px solid red;
     color: rgb(24, 24, 24);
     background-color: rgb(213, 218, 254);
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding: 0px 100px;
-    flex: 3;
+    flex: 2.5;
+    height: fit-content;
 }
 
 .bubbles {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    gap: 30px;
+    margin-bottom: 80px;
+}
+
+.info {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    padding-bottom: 40px;
 }
 
 .bubble {
-    height: 120px;
-    width: 100px;
-    border: 1px solid red;
+    height: 200px;
+    width: 200px;
+}
+
+    /* Photo by Aleksandar Pasaric: https://www.pexels.com/photo/photo-of-buildings-during-nighttime-2603464/ */
+    /* Photo by Alotrobo: https://www.pexels.com/photo/two-person-walking-on-street-corner-1653079/ */
+    /* Photo by Pixabay: https://www.pexels.com/photo/side-view-of-woman-in-illuminated-city-at-night-315191/ */
+    /* Photo by Elijah O'Donnell: https://www.pexels.com/photo/unrecognizable-man-skateboarding-on-road-8704612/ */
+
+    #aleks {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    #alotrobo {
+        width: 200px;
+        height: auto;
+    }
+
+    #pixabay {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    #elijah {
+        width: 200px;
+        height: auto;
+    }
+
+p {
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .three {
-    border: 1px solid red;
-    background-image: linear-gradient(90deg, rgb(10, 10, 180), rgb(63, 103, 222));
+    background-image: linear-gradient(90deg, #1f2937), rgb(63, 103, 222));
     padding: 0px 200px;
     flex: 2;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+#quotename {
+    align-self: flex-end;
+    text-align: right;
 }
 
 .four {
