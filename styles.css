@@ -78,6 +78,11 @@ button {
     text-decoration: none;
 }
 
+#send {
+     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+
+}
+
 img {
     border-radius: 8px;
 }
@@ -85,6 +90,7 @@ img {
 #piccing {
     height: 400px;
     width: auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
     /* In use: Photo by Piccinng from Pexels: https://www.pexels.com/photo/photo-of-skyline-at-night-3075993/*/
 }
 
@@ -119,6 +125,8 @@ img {
 .bubble {
     height: 200px;
     width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
     /* Photo by Aleksandar Pasaric: https://www.pexels.com/photo/photo-of-buildings-during-nighttime-2603464/ */
@@ -154,16 +162,17 @@ p {
 }
 
 .three {
-    background-image: linear-gradient(90deg, #1f2937), rgb(63, 103, 222));
+    background-image: linear-gradient(90deg, #1f2937), rgb(63, 103, 222);
     padding: 0px 200px;
     flex: 2;
 }
 
 .quote {
+    text-align: left;
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 80px;
+    padding-bottom: 50px;
     font-size: 36px;
     font-weight: 100;
 }
@@ -174,18 +183,44 @@ p {
 }
 
 .four {
-    border: 1px solid red;
     background-color: rgb(213, 218, 254);
     color: rgb(24, 24, 24);
-    padding: 0px 200px;
+    padding: 60px 200px;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.banner {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    border-radius: 8px;
+    gap: 20px;
+    padding: 0px 120px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.call {
+    color: aliceblue;
+    font-size: 24px;
+    margin-right: auto;
+    text-align: left;
+}
+
+#sign {
+    border: 2px solid aliceblue;
 }
 
 .footer {
-    border: 1px solid red;
+    padding: 5px;
 }
 
-/* colors 
+/* notepad
 rgb(35, 36, 37);    <dark grey
 rgb(24, 24, 24);    <black
 Dodgerblue;         <light blue
